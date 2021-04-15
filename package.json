@@ -1,0 +1,26 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supercharge/strings": "^1.18.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "mysql": "^2.18.1",
+    "node-schedule": "^2.0.0",
+    "socket.io": "^4.0.1",
+    "socket.io-client": "^4.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
